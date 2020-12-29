@@ -29,7 +29,7 @@ struct map {
 	single_node *tail;
 };
 
-//function declarations
+/*function declarations*/
 single_node *make_new_node (char *word);
 void insert_node (map *map, char *word);
 single_node *find(map *map, char *word);
